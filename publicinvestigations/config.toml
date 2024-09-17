@@ -1,0 +1,4 @@
+baseURL = 'http://vile.github.io/'
+languageCode = 'en-us'
+title = 'Investigations by 0xFantasy'
+theme = 'smol'

@@ -1,0 +1,4 @@
+[submodule "publicinvestigations/public"]
+	path = publicinvestigations/public
+	url = git@github.com:vile/vile.github.io.git
+	branch = main
