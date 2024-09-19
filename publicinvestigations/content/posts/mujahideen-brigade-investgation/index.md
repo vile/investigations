@@ -15,7 +15,7 @@ tags:
 
 ## Preface
 
-This is one of two articles based on "prompted" investigations. Starting out with a initial question and/or piece of media, the investigation is still open ended.
+This is one of two articles based on "prompted" investigations. Starting out with an initial question and/or piece of media, the investigation is still open ended.
 
 Initial Prompt:
 
@@ -33,7 +33,7 @@ This logo is consistent with ones displayed by the Mujahideen Brigades a/k/a Al-
 
 When looking for a social media presence for this group, various sources mentioned X (formerly Twitter) and Telegram accounts posting and claiming responsibility for various attacks. However, these sources either did not directly mention the usernames of accounts, provide links to the accounts, and/or images used in the sources were not original (e.g., they were heavily censored). However, one specifically did confirm my original suspicion that this was, in-fact, a cropped image (<https://www.memri.org/cjlab/gaza-based-al-mujahideen-brigades-which-kidnapped-israelis-october-7-opens-new-x-account>)
 
-![[Memri Censored Adverisement.avif]](./images/amb-investigation/Memri%20Censored%20Adverisement.avif)
+![[Memri Censored Advertisement.avif]](./images/amb-investigation/Memri%20Censored%20Adverisement.avif)
 
 Continuing to research, [a TRM blog](https://www.trmlabs.com/post/us-doj-charges-hamas-leaders-with-october-7-attacks-details-hamas-use-of-cryptocurrencies) talks about several DOJ charges against leaders of Hamas and their relation to sanctions evasion by using cryptocurrency. In the same article, the AMB's solicitation of cryptocurrency is mentioned, which includes an example promotional image. In this fully uncensored and uncropped image, the same logos, style, and layout is used, along with three cryptocurrency addresses (and their respective QR codes) specifically for TRC20 USDT, Bitcoin, and Ether, as well as two Telegram links.
 
@@ -71,7 +71,7 @@ Now looking at the BTC address ([bc1qf](https://mempool.space/address/bc1qf42hkr
 
 \[<https://metasleuth.io/result/btc/bc1qf42hkrnn8uj8z7kdk29dqs6hfzw6u06cpa4y70?source=91642e48-4c4b-490d-bf33-278800f9f33e>; <https://postimg.cc/JD6DtHvh>]
 
-The ETH address is slightly more interesting compared to Tron and Bitcoin. Activity is spread across both L1 Ethereum and BSC. CEX withdrawals are almost solely from BitGo, but a single small withdrawal was also made from Bitget. A large portion of funds eventually get deposited back into Bitget, whether directly or through an intermediary wallet. Remaining self-hosted wallet volume is consist with activity on TRX and BTC; some donating wallets on Ethereum have also donated to other OFAC- and CSL-sanctioned Middle Eastern related entities, such as [Gaza Now](https://www.opensanctions.org/entities/ofac-47635/).
+The ETH address is slightly more interesting compared to Tron and Bitcoin. Activity is spread across both L1 Ethereum and BSC. CEX withdrawals are almost solely from BitGo, but a single small withdrawal was also made from Bitget. A large portion of funds eventually get deposited back into Bitget, whether directly or through an intermediary wallet. Remaining self-hosted wallet volume is consistent with activity on TRX and BTC; some donating wallets on Ethereum have also donated to other OFAC- and CSL-sanctioned Middle Eastern related entities, such as [Gaza Now](https://www.opensanctions.org/entities/ofac-47635/).
 
 It is also to note that the [single largest incoming transaction](https://etherscan.io/tx/0xc853c0a0fac9ccb66422aa840756594b07df9c00b2aceff02a99d1b2000efb5e) of any chain is present on Ethereum, a ~0.615 ETH "donation" worth roughly USD\$1600 at the time it was sent.
 
@@ -97,7 +97,7 @@ Cryptocurrency addresses present in *Channel 1*:
 - [bc1q8y6wp8dmkjx0e3ngtlmjx6n9ry369khd3muum7](https://mempool.space/address/bc1q8y6wp8dmkjx0e3ngtlmjx6n9ry369khd3muum7) (Bitcoin; QR Code Only)
 - [bc1qmakfg2avr5c5n8dm30cfaeqa273hc6pfpyswj9](https://mempool.space/address/bc1qmakfg2avr5c5n8dm30cfaeqa273hc6pfpyswj9) (Bitcoin; Text Only)
 
-When looking on Ethereum and Bitcoin, the connection becomes very apparent, very quickly.
+When looking at Ethereum and Bitcoin, the connection becomes very apparent, very quickly.
 
 ![[Mismatched QR Code.png]](./images/amb-investigation/Mismatched%20QR%20Code.png)
 

@@ -17,7 +17,7 @@ tags:
 
 ## Preface
 
-This is the second of two articles based on “prompted” investigations. Starting out with a initial question and/or piece of media, the investigation is still open ended.
+This is the second of two articles based on “prompted” investigations. Starting out with an initial question and/or piece of media, the investigation is still open ended.
 
 Initial Prompt:
 
@@ -29,7 +29,7 @@ Initial Prompt:
 
 ## Domain Investigation
 
-In [the music video](https://www.youtube.com/watch?v=NNtMb0DrBRA) for "Tehran Tokyo" by Sasy, an advertisement is present for "River Poker" along with a link "www\[\.]RiverPoker\[\.]info." When visiting the site, we can quickly see there is [a linked Instagram account](https://www.instagram.com/river_poker/) at the bottom of the page. The Instagram page is very active, garnering over 22,000 followers and having over 2,000 posts as well as multiple "story" posts per day. Along with this, a different domain is present in the bio of the account, "www\[\.]riverpoker\[\.]com"
+In [the music video](https://www.youtube.com/watch?v=NNtMb0DrBRA) for "Tehran Tokyo" by Sasy, an advertisement is present for "River Poker" along with a link "www\[\.]RiverPoker\[\.]info." When visiting the site, we can quickly see there is [a linked Instagram account](https://www.instagram.com/river_poker/) at the bottom of the page. The Instagram page is very active, garnering over 22,000 followers and having over 2,000 posts as well as multiple "story" posts per day. Along with this, a different domain is present in the bio of the account, "www[\.]riverpoker\[\.]com"
 
 Both sites contain the same content, visually, link to the same social media profile, and link to the same download URLs.
 
@@ -43,7 +43,7 @@ DNS-wise, both domains have American "A" record IPs that are owned by Cloudflare
 
 ![[River Poker DNS Comparison.png]](./images/River%20Poker%20DNS%20Comparison.png)
 
-Looking into SSL certificates yield no results, as the "info" and "com" issuing organizations are different, Cloudflare and Google Trust Services (GTS) respectively. However, [Cloudflare does use GTS](https://developers.cloudflare.com/ssl/reference/certificate-authorities/) as a certificate authority as part of their universal SSL feature.
+Looking into SSL certificates yields no results, as the "info" and "com" issuing organizations are different, Cloudflare and Google Trust Services (GTS) respectively. However, [Cloudflare does use GTS](https://developers.cloudflare.com/ssl/reference/certificate-authorities/) as a certificate authority as part of their universal SSL feature.
 
 While not definitive proof, both sites also use the same Google Tag Manager ID.
 
@@ -55,9 +55,9 @@ Going forward, the "com" domain (site) will be the main pivot point. On the site
 
 The download links are as follows:
 
-- Android: \hxxps://www\[.]riverpoker\[.]com/download/mobile/pokermobile.apk
-- Windows: \hxxps://www\[.]rghvir45\[.]com/download/setup.exe
-- iOS: itms-services\[\:]//www\[.]rivappsdo\[.]com?action=download-manifest&url=\hxxps://www\[.]rivappsdo\[.]com/download/mobile/ios/manifest.plist
+- Android: hxxps://www\[.]riverpoker\[.]com/download/mobile/pokermobile.apk
+- Windows: hxxps://www\[.]rghvir45\[.]com/download/setup.exe
+- iOS: itms-services\[\:]//www\[.]rivappsdo\[.]com?action=download-manifest&url=hxxps://www\[.]rivappsdo\[.]com/download/mobile/ios/manifest.plist
 
 This introduces two new domains, both registered, again, with GoDaddy on the same day (May 31st, 2023); except the NS for these domains are likely registrar defaults (both using
 ns05.domaincontrol.com and ns06.domaincontrol.com). Both domains seem to solely be serving downloads from the same server running Red Hat Linux with nginx hosted using Amazon AWS in India.
@@ -68,7 +68,7 @@ ns05.domaincontrol.com and ns06.domaincontrol.com). Both domains seem to solely 
 
 It is to note that the "com" domain is a resold domain. The original registration date is August 24th, 2000 (over 24 years ago). On or about November 30th, 2022, the domain was transferred to GoDaddy from Namecheap and had its NS changed from Sedo Parking to Cloudflare. This sale is further confirmed by [this article from DNW](https://domainnamewire.com/2022/11/29/turkey-week-end-user-domain-name-sales/) talking about sales on the Sedo marketplace that took place that week. An [archive](https://web.archive.org/web/20211223025335/http://riverpoker.com/) of the "com" site in December 2021 shows a Sedo landing page saying the site is for sale for the price of EUR$3,000.
 
-Looking further into domains linked in the footer of the site, the affiliate buttons lead to the \www\[.]chariv37\[.]com (the "Agent Backoffice") that is registered with GoDaddy and on the same Cloudflare NS as the main River Poker site. Among the many contact emails listed on the Agent site, they all share the same email domain \www\[.]rnying32\[.]com. This domain currently is not registered, but, using historical WHOIS data, it was active between 2022 and 2023, registered using GoDaddy, and used Cloudflare NS.
+Looking further into domains linked in the footer of the site, the affiliate buttons lead to the www\[.]chariv37\[.]com (the "Agent Backoffice \[sic]") that is registered with GoDaddy and on the same Cloudflare NS as the main River Poker site. Among the many contact emails listed on the Agent site, they all share the same email domain www\[.]rnying32\[.]com. This domain currently is not registered, but, using historical WHOIS data, it was active between 2022 and 2023, registered using GoDaddy, and used Cloudflare NS.
 
 ![[Maltego Graph 3.jpg]](./images/Maltego%20Graph%203.jpg)
 
@@ -85,9 +85,9 @@ All of the above domains currently are, or previously were, registered with GoDa
 
 ### iTech Labs Document
 
-Earlier, it was noted that River Poker displays a certification from "iTech Labs" regarding their provably fair randomness. However, the current document only certifies "CZAR GAMING PRIVATE LIMITED" and their URL "\<<http://www\[.]czargaming\[.]com/>>." *Czar Gaming* seems to only be a partial games provider to River Poker (such as live games that require a dealer).
+Earlier, it was noted that River Poker displays a certification from "iTech Labs" regarding their provably fair randomness. However, the current document only certifies "CZAR GAMING PRIVATE LIMITED" and their URL "czargaming.com." *Czar Gaming* seems to only be a partial games provider to River Poker (such as live games that require a dealer).
 
-Simply Googling for `itech labs "river poker"` returns a [very similar certification](https://itechlabs.com/certificates/CzarGaming/RNG_Certificate_CzarGaming_RiverPriver_UK_19Nov2018.pdf) document ([archive](https://archive.ph/emGAR)); once again certifying *Czar Gaming*, but this time River Poker as the "operator" with a different domain \<<http://www\[.]riverpriver\[.]com/>>. This site is currently offline and has fallen out of registration, but archives of it do exist.
+Simply Googling for `itech labs "river poker"` returns a [very similar certification](https://itechlabs.com/certificates/CzarGaming/RNG_Certificate_CzarGaming_RiverPriver_UK_19Nov2018.pdf) document ([archive](https://archive.ph/emGAR)); once again certifying *Czar Gaming*, but this time River Poker as the "operator" with a different domain hxxp://www.riverpriver.com. This site is currently offline and has fallen out of registration, but archives of it do exist.
 
 ![[iTech RiverPriver Certificate.jpg]](./images/iTech%20RiverPriver%20Certificate.jpg)
 
@@ -97,11 +97,11 @@ In [one of the archives](https://web.archive.org/web/20190519061054/http://river
 - Telegram: @River_support (User)
 - Facebook: RIVER-POKER-363891307068132
 - Instagram: @river_poker
-- Domain: \www\[.]riverpop77\[.]com
+- Domain: www\[.]riverpop77\[.]com
 
-The \www\[.]riverpop77\[.]com domain was registered with GoDaddy and active between 2019 and 2020. It seems that there are no working archives of the site.
+The www\[.]riverpop77\[.]com domain was registered with GoDaddy and active between 2019 and 2020. It seems that there are no working archives of the site.
 
-The @riverpoker Telegram handle seems to lead to an unrelated poker/gambling Telegram channel, presently. It is possible this might was a mistake at the time of the archive, as the text content of the site said "Twitter," but linked to a Telegram. Searching Telegram for "River Poker" leads to a channel with the username @RiverPoker_com that has been actively posting about River Poker since 2016 utilizing the same logo as they do now; new posts in the channel link to the "com" site.
+The @riverpoker Telegram handle seems to lead to an unrelated poker/gambling Telegram channel, presently. It is possible this might have been a mistake at the time of the archive, as the text content of the site said "Twitter," but linked to a Telegram. Searching Telegram for "River Poker" leads to a channel with the username @RiverPoker_com that has been actively posting about River Poker since 2016 utilizing the same logo as they do now; new posts in the channel link to the "com" site.
 
 ### Analyzing Eight Years of Telegram Messages
 
