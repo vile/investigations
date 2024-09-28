@@ -10,8 +10,22 @@ categories:
 tags:
   - default
   - osint
+  - crypto
   - terrorism
 ---
+
+{{< rawhtml >}}
+</br>
+<a href="https://metasleuth.io/" target="_blank">
+<img
+  src="./images/amb-investigation/blocksec-metasleuth.png"
+  alt="Blocksec Metasleuth logo"
+  width=400
+></img>
+</a>
+{{< /rawhtml >}}
+
+> ### Thank you [Blocksec](https://x.com/BlockSecTeam) for allowing me access to their [Metasleuth](https://x.com/MetaSleuth) platform to conduct the on-chain portion of this report. Look into using [Metasleuth](https://metasleuth.io/) for your next investigation
 
 ## Preface
 
