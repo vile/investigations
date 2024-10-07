@@ -12,6 +12,7 @@ tags:
   - osint
   - crypto
   - terrorism
+summary: "This is one of two articles based on \"prompted\" investigations. Starting out with an initial question and/or piece of media, the investigation is still open ended."
 ---
 
 {{< rawhtml >}}
