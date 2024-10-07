@@ -13,7 +13,21 @@ tags:
   - crypto
   - gambling
   - vasp
+summary: This is one of two articles based on \"prompted\" investigations. Starting out with an initial question and/or piece of media, the investigation is still open ended.
 ---
+
+{{< rawhtml >}}
+</br>
+<a href="https://metasleuth.io/" target="_blank">
+<img
+  src="./images/blocksec-metasleuth.png"
+  alt="Blocksec Metasleuth logo"
+  width=400
+></img>
+</a>
+{{< /rawhtml >}}
+
+> ### Thank you [Blocksec](https://x.com/BlockSecTeam) for allowing me access to their [Metasleuth](https://x.com/MetaSleuth) platform to conduct the on-chain portion of this report. Look into using [Metasleuth](https://metasleuth.io/) for your next investigation
 
 ## Preface
 
