@@ -13,7 +13,7 @@ tags:
 summary: "There has been a large increase in X account compromises over the past few months. As such, I wanted to compile a list of security policies and tips as well as common phishing tactics."
 
 # Twitter Card
-description: here has been a large increase in X account compromises over the past few months. As such, I wanted to compile a list of security policies and tips as well as common phishing tactics."
+description: There has been a large increase in X account compromises over the past few months. As such, I wanted to compile a list of security policies and tips as well as common phishing tactics.
 images: ["posts/2024-10-20-how-to-actually-secure-your-x-account/images/cover.png"]
 ---
 
