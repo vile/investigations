@@ -8,3 +8,6 @@ summaryLength = 20
 [params]
 title = 'Investigations by 0xFantasy'
 googleAnalyticsID = 'G-C2KWQMHPS9'
+twitterURL = 'https://x.com/0xFantasy'
+githubURL = 'https://github.com/Vile'
+bskyURL = 'https://bsky.app/profile/fanta.sy'

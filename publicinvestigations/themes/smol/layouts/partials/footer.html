@@ -3,5 +3,8 @@
 	{{- range .Site.Menus.footer }}
 	<a href="{{ .URL }}"><b>{{ .Name }}</b></a>.
         {{- end }}
+	<a href="{{ .Site.Params.twitterURL }}" target="_blank">X.com</a>.
+	<a href="{{ .Site.Params.githubURL }}" target="_blank">Github</a>.
+	<a href="{{ .Site.Params.bskyURL }}" target="_blank">Bluesky</a>.
 	</p>
 </footer>
