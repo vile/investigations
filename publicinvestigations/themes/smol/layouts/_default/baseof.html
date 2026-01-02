@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 <head>
+	{{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
+	{{ partial "analytics-gtag.html" . }}
+	{{ end }}
 	{{ template "_internal/opengraph.html" . }}
 	{{ template "_internal/twitter_cards.html" . }}
 	<meta charset="UTF-8">
