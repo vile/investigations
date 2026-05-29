@@ -6,8 +6,13 @@ type: posts
 draft: false
 categories:
   - default
+  - security
 tags:
   - default
+  - web
+  - appsec
+  - phishing
+summary: Google has a multitude of open redirects that are frequently abused by threat actors. They are used to both deter initial URL scanning and obfuscate the final phishing URL. A recent example of this in the wild found by KnowBe4 showcased combining multiple redirects in a row. Google seemingly has no interest in fixing these issues according to their VRP. These redirects span different Google domains and products including Search, Meet and Ads (formerly DoubleClick).
 ---
 
 <!-- markdownlint-disable no-inline-html -->
